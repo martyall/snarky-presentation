@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "marp slides.md --html -o index.html",
+    "watch": "marp slides.md --html --watch",
+    "serve": "marp --html --server .",
+    "pdf": "marp slides.md --pdf -o slides.pdf"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4"
+  }
+}
